@@ -8,3 +8,13 @@ A collection of projects involving direct memory mapping to GPIO registers devel
 
 ### ESP32
 - [esp-idf](https://github.com/espressif/esp-idf)
+
+
+# Current Projects
+### Arduino UNO
+- [LED Blink](https://github.com/h0nt3d/Microcontroller_BaremetalProgramming/tree/main/UNO_BLINK)
+- [Psuedo-random number generator](https://github.com/h0nt3d/Microcontroller_BaremetalProgramming/tree/main/UNO_PSUEDO-RANDOM-NUMBER-GENERATOR)
+
+### ESP32
+- [LED Blink](https://github.com/h0nt3d/Microcontroller_BaremetalProgramming/tree/main/ESP32_BLINK)
+- [Psuedo-random number generator](https://github.com/h0nt3d/Microcontroller_BaremetalProgramming/tree/main/ESP32_PSUEDO-RANDOM-NUMBER-GENERATOR)
