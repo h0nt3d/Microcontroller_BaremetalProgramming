@@ -1,5 +1,5 @@
 # In-built LED
-
+![alt text](https://github.com/h0nt3d/Microcontroller_BaremetalProgramming/blob/main/UNO_BLINK/Pinout-UNOrev3_latest.png?raw=true)
 
 # Avrdude Configuration
 Inside Makefile: <br>
