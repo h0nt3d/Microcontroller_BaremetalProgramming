@@ -1,5 +1,5 @@
 # In-built LED
-![alt text]()
+![alt text](https://github.com/h0nt3d/Microcontroller_BaremetalProgramming/blob/main/ESP32_BLINK/ESP32_BLINK.jpg?raw=true)
 
 # esp-idf Configuration
 - Clone the esp-idf framework: <br>
