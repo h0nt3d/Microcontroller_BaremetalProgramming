@@ -1,5 +1,5 @@
 # randomNumGen
-
+![alt text](https://github.com/h0nt3d/Microcontroller_BaremetalProgramming/blob/main/UNO_PSUEDO-RANDOM-NUMBER-GENERATOR/randomNumGen.jpg?raw=true)
 
 # Avrdude Configuration
 Inside Makefile: <br>
