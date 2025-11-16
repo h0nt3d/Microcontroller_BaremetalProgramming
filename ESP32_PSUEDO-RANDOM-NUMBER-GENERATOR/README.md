@@ -3,9 +3,9 @@
 
 # esp-idf Configuration
 - Clone the esp-idf framework: <br>
-`git clone https://github.com/espressif/esp-idf.git`
+`git clone --recursive https://github.com/espressif/esp-idf.git`
 
-- Run the install script: <br>
+- Inside cloned repository, run the install script: <br>
 `./install.sh`
 
 - Run export script: <br>
