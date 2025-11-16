@@ -1,5 +1,5 @@
-# In-built LED
-![alt text]()
+# ESP32_PSUEDO-RANDOM-NUMBER-GENERATOR
+![alt text](https://github.com/h0nt3d/Microcontroller_BaremetalProgramming/blob/main/ESP32_PSUEDO-RANDOM-NUMBER-GENERATOR/ESP32_PSUEDO-RANDOM-NUMBER-GENERATOR.jpg?raw=true)
 
 # esp-idf Configuration
 - Clone the esp-idf framework: <br>
