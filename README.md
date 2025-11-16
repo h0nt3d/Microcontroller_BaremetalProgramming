@@ -5,3 +5,6 @@ A collection of projects involving direct memory mapping to GPIO registers devel
 ### UNO / Freenove Control Board
 - [avr-gcc](https://avrdudes.github.io/avr-libc/)
 - [avrdude](https://github.com/avrdudes/avrdude)
+
+### ESP32
+- [esp-idf](https://github.com/espressif/esp-idf)
