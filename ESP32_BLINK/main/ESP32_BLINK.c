@@ -1,0 +1,33 @@
+/**
+ * ESP32-U
+ * List of Working IO Pins:
+ * 2, 4, 5, 16, 17, 18, 19, 21, 22, 23, 27, 26, 25 
+ */
+
+#include <stdio.h>
+#include "freertos/FreeRTOS.h"
+
+
+#define GPIO_OUT_W1TS_REG 	0x3FF44008
+#define GPIO_OUT_W1TC_REG 	0x3FF4400C
+#define GPIO_ENABLE_REG 	0x3FF44020
+#define GPIO5			5
+#define DELAY_MS		1000
+
+void app_main(void)
+{
+	volatile uint32_t* gpio_out_w1ts_reg = (volatile uint32_t*) GPIO_OUT_W1TS_REG;
+	volatile uint32_t* gpio_out_w1tc_reg = (volatile uint32_t*) GPIO_OUT_W1TC_REG;
+	volatile uint32_t* gpio_enable_reg = (volatile uint32_t*) GPIO_ENABLE_REG ;
+
+	*gpio_enable_reg = (1 << GPIO5);
+	*gpio_out_w1tc_reg = (1 << GPIO5);
+
+	while (1) {
+		*gpio_out_w1ts_reg = (1 << GPIO5);
+		vTaskDelay(pdMS_TO_TICKS(DELAY_MS));
+		*gpio_out_w1tc_reg = (1 << GPIO5);
+		vTaskDelay(pdMS_TO_TICKS(DELAY_MS));
+	}
+}
+
